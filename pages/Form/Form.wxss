@@ -1,0 +1,105 @@
+/* pages/Form/Form.wxss */
+.cont{
+  width:100%;
+   background: #F8F8F8;  
+}
+.post{
+  margin: 15px; 
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  background: #ffffff;
+   border-radius:10px;
+   height: 35px;
+}
+/* .post input{
+  word-wrap: break-word;
+} */
+.radio{
+  margin-left:-20px; 
+}
+input{
+  font-size: 14px;
+}
+.tere{
+  width:60%;
+}
+.tt{
+  /* width:35%; */
+  width: 100px;
+  margin-right: 5px;
+  text-align: right;
+  /* font-size: 30rpx; */
+}
+.post-tee{
+  width: 148px;
+  margin-right: 5px;
+  text-align: right;
+  box-sizing: border-box;
+  margin-left: 6px;
+}
+textarea{
+  width: 300px;
+  height: 57px;
+  display: block;
+  position: relative;
+  top:20px;
+}
+.ter,.tere{
+  font-size: 30rpx;
+}
+.picker{
+  /* width: 60%; */
+  text-align: center;
+  margin-left:30px; 
+}
+.ra{
+  margin-left: 10px;
+}
+
+
+.select_box{
+background:#F3F9FC;
+width: 30%;
+text-align: center;
+display: inline-block;
+margin-left: 5px;
+position: relative;
+}
+.select{
+box-sizing: border-box;
+width: 100%;
+height: 70rpx;
+border:1px solid #efefef;
+border-radius: 8rpx;
+display: flex;
+align-items: center;
+padding: 0 20rpx;
+}
+.select_text{
+font-size: 30rpx;
+flex: 1;
+}
+
+/* .select_img_rotate{
+transform:rotate(180deg); 
+} */
+.option_box{
+position: absolute;
+top: 70rpx;
+width: 100%;
+border:1px solid #efefef;
+box-sizing: border-box;
+height: 0;
+overflow-y: auto;
+border-top: 0;
+background:#F3F9FC;
+transition: height 0.3s;
+}
+.option{
+display: block;
+line-height: 40rpx;
+font-size: 30rpx;
+border-bottom: 1px solid #efefef;
+padding: 10rpx;
+}
